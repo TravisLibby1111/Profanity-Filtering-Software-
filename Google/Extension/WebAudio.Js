@@ -1,4 +1,4 @@
-
+Import Constants 
 import Constants from './lib/constants';
 import WebFilter from './webFilter';
 import BookmarkletFilter from './bookmarkletFilter';
