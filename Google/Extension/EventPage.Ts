@@ -1,4 +1,3 @@
-
 import DataMigration from './dataMigration';
 import Domain from './domain';
 import WebConfig from './webConfig';
