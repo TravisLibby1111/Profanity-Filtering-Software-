@@ -8,7 +8,7 @@ const logger = new Logger();
 export default class WebAudio {
 cueRuleIds: number[];
 enabledRuleIds: number[];
-fetching: boolean;
+Feteching: boolean;
 fillerAudio: HTMLAudioElement;
 filter: WebFilter | BookmarkletFilter;
 lastFilteredNode: HTMLElement | ChildNode;
