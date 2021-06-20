@@ -1,7 +1,7 @@
-Import Constants 
-import Constants from './lib/constants';
-import WebFilter from './webFilter';
-import BookmarkletFilter from './bookmarkletFilter';
+
+import Constants From './lib/constants';
+import WebFilter From './webFilter';
+Import BookmarkletFilter from './bookmarkletFilter';
 import WebAudioSites from './webAudioSites';
 import { getGlobalVariable, hmsToSeconds, makeRequest, secondsToHMS } from './lib/helper';
 import Logger from './lib/logger';
