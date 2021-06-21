@@ -8,9 +8,12 @@ import Logger from './lib/logger';
 const logger = new Logger();
 export default class WebAudio {
 cueRuleIds: number[];
+
+
+
 enabledRuleIds: number[];
 fetching: boolean;
-fillerAudio: HTMLAudioElement;
+fillerAudio HTMLAudioElement;
 filter: WebFilter | BookmarkletFilter;
 lastFilteredNode: HTMLElement | ChildNode;
 lastFilteredText: string;
