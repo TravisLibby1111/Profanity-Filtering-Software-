@@ -8,9 +8,6 @@ import Logger from './lib/logger';
 const logger = new Logger();
 export default class WebAudio {
 cueRuleIds: number[];
-
-
-
 enabledRuleIds: number[];
 fetching: boolean;
 fillerAudio HTMLAudioElement;
@@ -36,17 +33,9 @@ static readonly DefaultVideoSelector = 'video';
 static readonly FillerConfig = {
 beep: {
 fileName: 'audio/beep.mp3',
-volume: 0.2,
+volume: 300
 },
-crickets: {
-fileName: 'audio/crickets.mp3',
-volume: 0.4,
-},
-static: {
-fileName: 'audio/static.mp3',
-volume: 0.3,
-},
-};
+
 static readonly TextTrackRuleMappings = {
 externalSubTrackLabel: 'label',
 videoCueKind: 'kind',
